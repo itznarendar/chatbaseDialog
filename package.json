@@ -1,0 +1,20 @@
+{
+  "name": "dialogflowfirebasechatbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./functions/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "naren <itznarendar@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@google/chatbase": "^1.1.2",
+    "actions-on-google": "^2.9.1",
+    "botbuilder": "^4.5.1",
+    "dialogflow-fulfillment": "^0.6.1",
+    "firebase-admin": "^8.2.0",
+    "firebase-functions": "^3.1.0",
+    "lodash.random": "^3.2.0"
+  }
+}
